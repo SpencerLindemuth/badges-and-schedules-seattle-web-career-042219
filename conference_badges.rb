@@ -21,7 +21,7 @@ end
 
 def printer(array)
   array.each do
-    
+
   end
 end
 
