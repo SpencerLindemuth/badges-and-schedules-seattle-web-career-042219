@@ -24,6 +24,8 @@ def printer(array)
     puts name
   end
   assign_rooms(array).each do |room|
+
+  end
 end
 
 guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
