@@ -19,5 +19,9 @@ def assign_rooms(array)
   return room_list
 end
 
+def printer(array)
+
+end
+
 guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 puts assign_rooms(guests)
