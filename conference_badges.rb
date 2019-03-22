@@ -13,14 +13,16 @@ end
 
 def assign_rooms(array)
   room_list = []
-  array.each_with_index { |name, i|
+  array.each_with_index do |name, i|
     room_list << "Hello, #{name}! You'll be assigned to room #{i + 1}!"
-  }
+  end
   return room_list
 end
 
 def printer(array)
-
+  array.each do
+    
+  end
 end
 
 guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
