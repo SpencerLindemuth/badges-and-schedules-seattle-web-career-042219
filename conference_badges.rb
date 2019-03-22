@@ -20,9 +20,8 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  array.each do
-
-  end
+  puts batch_badge_creator(array)
+  puts assign_rooms(array)
 end
 
 guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
