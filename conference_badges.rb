@@ -18,3 +18,6 @@ def assign_rooms(array)
   end
   return room_list
 end
+
+guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+puts assign_rooms(guests)
