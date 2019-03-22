@@ -22,7 +22,8 @@ end
 def printer(array)
   batch_badge_creator(array).each do |name|
     puts name
-  puts assign_rooms(array)
+  end
+  assign_rooms(array).each do |room|
 end
 
 guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
